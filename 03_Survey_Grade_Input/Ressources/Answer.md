@@ -6,16 +6,12 @@ On the survey page (```?page=survey```), change one of the grade input values to
 Then, click on the appropriate line, and choose that specific grade.\
 Tada, we just found another Flag.\
 Need to strictly be a positive integer to be submitted, meaning it is protected against type mutations.\
-You can also pass ```0```, and this will be submitted correctly despite the fact that it's not in the dropdown list.
-
+You can also pass ```0```, and this will be submitted correctly despite the fact that it's not in the dropdown list.\
 ![Survey_Grade_Input](../../Docs/images/03/Survey_Grade_Input.png)
-**Flag :** ```03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA```
-
-## Usage
-
 Data from the client should never be trusted for the client has every possibility to tamper with the data.\
 The lack of validation requires a round-trip to the backend to provide an error message that the front end code could easily have eliminated.\
 The back end may not be able to cope with the data payload the front-end code could have easily eliminated. For example, buffer overflows, XML injection, or similar.\
+**Flag :** ```03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA```
 
 ## Prevention
 
