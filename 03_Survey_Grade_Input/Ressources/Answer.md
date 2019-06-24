@@ -1,8 +1,12 @@
 # 03_Survey_Grade_Input
 
+## Page
+
+```url/?page=survey```
+
 ## Risk
 
-On the survey page (```?page=survey```), change one of the grade input values to any number ```> 10```\
+In the console, change one of the grade input values to any number ```> 10```\
 Then, click on the appropriate line, and choose that specific grade.\
 Tada, we just found another Flag.\
 Need to strictly be a positive integer to be submitted, meaning it is protected against type mutations.\
