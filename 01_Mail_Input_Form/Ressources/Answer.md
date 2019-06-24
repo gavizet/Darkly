@@ -1,7 +1,10 @@
 # 01_Mail_Input_Form
+## Page
+
+```url/?page=recover```
 
 ## Risk
-On the "I forgot my password" page ```(url/?page=recover")```, if you try inspecting the ```Submit``` button, you can see that it contains an input form with a ```mail``` field with a hard input value.
+If you try inspecting the ```Submit``` button, you can see that it contains an input form with a ```mail``` field with a hard input value.
 Simply change the ```mail``` input value by anything (works even without a valid email adress, I tested with ```test```), click ont the ```Submit``` button, and voila, you now have the desired flag.
 ![Email_Input_Form](../../Docs/images/01/Email_Input_Form.png)
 With this, you could force someone to create a new password for his account depending on how ```Recover Password``` is handled.\
